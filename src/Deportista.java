@@ -1,8 +1,8 @@
 public abstract class Deportista {
-    private String nombre;
-    private int edad;
-    private String pais;
-    private int horasEntrenamiento;
+    protected String nombre;
+    protected int edad;
+    protected String pais;
+    protected int horasEntrenamiento;
 
     public Deportista() {
     }
