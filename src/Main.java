@@ -11,5 +11,9 @@ public class Main {
         lsDeportista.add(corredor1);
         lsDeportista.add(ciclista1);
         lsDeportista.add(nadador1);
+
+        for (Deportista d1:lsDeportista){
+            System.out.println(d1);
+        }
     }
 }
